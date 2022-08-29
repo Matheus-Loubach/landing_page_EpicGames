@@ -1,38 +1,444 @@
-.App {
-  text-align: center;
+#background  {
+  background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.473)), url(../src/assents/fundo_menu.png);
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+  padding-left: 80px;
+  top: 30px;
+  padding: 20px;  
+  position: relative;
+}
+.logo{
+  width: 58px;
+  height: 59px;
+  filter: brightness(100%);
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+
+.menu{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.menu ul li{
+  display: inline;
+  position: relative;
+ 
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: background .3s;
+  margin-right: 40px;
+}
+
+.menu ul li a:hover {
+  background-color: #2681FF;
+}
+/*sub menu*/
+.menu ul ul {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+.menu ul li:hover ul {
+  display: block;
+  transition: background .3s;
+}
+
+/*tamanho background do sub*/
+.menu ul ul {
+  width: 6.5em;
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+.menu ul ul li a {
+  display: inline-block;
+ 
+  
+}
+
+.iniciar a{
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 30px;
+  padding: 20px;
+  border: 1px solid #FFFFFF;
+  background: none;
+}
+
+.baixar a{
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 30px;
+  padding: 20px;
+  border-radius: 4px;
+  background:  #2681FF;;
+}
+
+#capa_war img{
+  width: 449px;
+  height: 110px;
+  margin-left: 100px;  
+  margin-top: 110px;
+}
+#capa_war h1{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.8);
+width: 523px;
+height: 96px;
+margin-left: 100px; 
+
+}
+/*--------------------------- meio---------------------------------------*/
+
+.container_meio{
+  padding: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 10px;
+}
+
+.container_meio h1{
+  padding-left:10%;
+  margin-right: 10%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.container_meio p{
+  margin-right: 5%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  cursor: pointer;
+}
+
+.opac{
+  opacity: 0.72;
+}
+
+.opac:hover{
+  opacity: 1;
+}
+
+#ofertas{
+color: #008cff;
+}
+
+/*carrossel*/
+
+.carros{
+  width: 950x;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.detalhes_promo {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.detalhes_promo .novoEpic, .imagem_jogos .novoEpic{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 30px;  
+  color: #FFFFFF;
+  margin-left:10px;
+  background: #202020;
+  border-radius: 1px;
+  padding: 2px;
+  width: 80px;
+ height: 25px;
+}
+
+.detalhes_promo .novoEpic:hover, .imagem_jogos .novoEpic:hover{
+ cursor: pointer;
+ background-color: #008cff;
+}
+
+.descricao_promo{
   color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.detalhes_promo img{
+  cursor:pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.detalhes_promo .promo , .nav_epic .promo{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #FFFFFF;
+  opacity: 0.6;
+  display: block;
 }
+
+/*noticias*/
+
+
+.not_container{
+  justify-content: center;
+  display: flex;
+  margin-top: 180px;
+  margin-left: 3%;
+}
+
+.capa_1{
+  float: left;
+  position: relative;
+  margin-right: 40px;
+  background: #2681FF;
+  border-radius: 0px 0px 5px 5px;
+}
+.capa_1 img{
+filter: brightness(50%);
+}
+
+.capa_1 img:hover{
+  filter: brightness(40%);
+  cursor: pointer;
+}
+
+.textDiv1 {
+  position: absolute;
+  margin-top: -150px;
+  left: 0;
+  margin-left: 10px;
+  color: #FFFFFF;
+  width: 400px;
+}
+.textDiv1 p{
+  font-weight: 400;
+}
+
+.textDiv1 label{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.281);
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*navegação pela epic*/
+#barra{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.container_nav1{
+  border-right: 1px solid rgba(255, 255, 255, 0.32);
+
+}
+
+.container_nav{
+  margin-left: 32px;
+}
+
+.nav_epic{
+  color: white;
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.imagem_jogos{
+  display: flex;  
+}
+
+.imagem_jogos{
+  margin-right: 10px;
+  margin-bottom: 24px;
+}
+.fundo_texto{
+  width: 250px;
+  padding: 10px;
+}
+
+.fundo_texto:hover{
+  background-color: rgba(255, 255, 255, 0.151);
+  cursor: pointer;
+
+}
+
+.subTitulo{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+}
+
+#background2{
+  background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.473)), url(../src/assents/fundo_2.png);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*catalogo*/
+#background2{
+  color: #FFFFFF;
+  align-items: center;
+}
+#background2 h3{
+  padding-left: 200px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+#background2 p{
+padding-left: 200px;
+width: 380px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+#background2 button{
+margin-left: 200px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #02010B;
+background: #FFFFFF;
+mix-blend-mode: normal;
+border-radius: 4px;
+padding: 10px;
+cursor: pointer;
+}
+
+#background2 {
+  display: flex;
+}
+
+#background2 img{
+  margin: 50px 0 96px 50px;
+} 
+
+#background2 button:hover{
+ background-color: #2681FF;
+ color: #FFFFFF;
+}
+
+/*footer*/
+.footer_container{
+  margin-left: 220px;
+  margin-right: 220px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.footer{
+  margin: 50px 0 32px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_footer{
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.dados{
+  display: flex;
+}
+
+.dados .tit_footer{
+margin-left: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #ffffff;
+margin-bottom: 15px;
+}
+
+.dados ul{
+  list-style-type: none;
+}
+
+.dados li{
+margin-bottom: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.8;
+}
+
+.dados li:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.epicUnrealIcon img{
+  margin-top: 200px;
+}
+
+.footer_container img{
+  margin-right: 10px;
+}
+
+.footer_container p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.8);
+opacity: 0.8;
+}
+
+footer a{
+  text-decoration: none;
+  color: #008cff;
+}
+
