@@ -1,10 +1,10 @@
 import React from 'react';
 import imagem3 from '../assents/Capa_jogos/image 3.png';
 import Logo from '../assents/fundo.png';
+import menuBarra from '../assents/icone/menu-aberto.png';
 
 
-
-const HeaderPC = () => {
+const HeaderPC = ({setMenuOn}) => {
   return (
     <div>
        <header>
@@ -44,10 +44,10 @@ const HeaderPC = () => {
           </li>
             <li className='iniciar'><a href="#">Iniciar Sessão</a></li>  
           <li className='baixar'><a href="#">Baixar Epic Games</a></li>
-          
           </ul>
         </nav>
         </div>
+        <p onClick={() => setMenuOn(true)} className='MenuMobile'> <img src={menuBarra}/> </p>
         <div id='capa_war'>
         <img src={imagem3} alt="god of war" />
         <h1>God of War é uma série de jogos eletrônicos de ação e aventura baseada nas mitologias grega e nórdica. Estreando em 2005, a série tornou-se um título emblemático para a marca PlayStation, e Kratos é um dos seus personagens mais populares. </h1>

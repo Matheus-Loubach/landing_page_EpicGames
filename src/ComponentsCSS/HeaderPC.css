@@ -5,7 +5,16 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.MenuMobile{
+  justify-content: end;
+  display: flex;
+  margin-top: 0;
+  background-color: #000000c4;
+}
+.MenuMobile img{
+  width: 50px;
+  height: 50px;
+}
 
 .container{
   display: flex;
@@ -19,7 +28,7 @@
   width: 58px;
   height: 59px;
   filter: brightness(100%);
-  margin-left: 150px;
+  margin-left: 120px;
   margin-right: 20px;
 }
 
