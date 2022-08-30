@@ -52,6 +52,17 @@ nav li a{
   color: #FFFFFF
 }
 
+nav li{
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+}
+
+nav li img{
+  margin-left: 25px;
+}
+
+
+
 
 ${({ IsVisible }) => IsVisible && css`
   opacity: 1;

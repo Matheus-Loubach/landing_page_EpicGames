@@ -32,7 +32,7 @@ function App(){
   return (
     <>
       <MenuMobile
-       menuOn={menuOn} setMenuOn={setMenuOn}
+      logo={imagem24}  menuOn={menuOn} setMenuOn={setMenuOn}
       />
       <HeaderPC setMenuOn={setMenuOn}/>
       <CarroselMeio  novo={novo}/>
