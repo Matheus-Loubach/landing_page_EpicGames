@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+#Landing Page EpicGames
+
+[screencapture-landing-page-epic-games-vercel-app-2022-08-30-17_35_46](https://user-images.githubusercontent.com/34719454/187554579-1b0cb7c9-315b-48f0-b899-f31ecc5a1ccb.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
