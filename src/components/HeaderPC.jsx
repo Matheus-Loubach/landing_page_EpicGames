@@ -1,7 +1,8 @@
 import React from 'react';
 import imagem3 from '../assents/Capa_jogos/image 3.png';
 import Logo from '../assents/fundo.png';
-import '..components/HeaderPC.css'
+
+
 
 const HeaderPC = () => {
   return (
@@ -50,6 +51,8 @@ const HeaderPC = () => {
         <div id='capa_war'>
         <img src={imagem3} alt="god of war" />
         <h1>God of War é uma série de jogos eletrônicos de ação e aventura baseada nas mitologias grega e nórdica. Estreando em 2005, a série tornou-se um título emblemático para a marca PlayStation, e Kratos é um dos seus personagens mais populares. </h1>
+        <button>Compre na pré venda ▷</button>
+        <span> + Para a Lista de Desejos</span>
         </div>
         </div>
       </header>

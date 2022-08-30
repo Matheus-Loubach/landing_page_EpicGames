@@ -1,0 +1,99 @@
+
+.detalhes_promo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  }
+  
+  .detalhes_promo .novoEpic, .imagem_jogos .novoEpic{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;  
+    color: #FFFFFF;
+    margin-left:10px;
+    background: #202020;
+    border-radius: 1px;
+    padding: 2px;
+    width: 80px;
+   height: 25px;
+  }
+  
+  .detalhes_promo .novoEpic:hover, .imagem_jogos .novoEpic:hover{
+   cursor: pointer;
+   background-color: #008cff;
+  }
+  
+  .descricao_promo{
+    color: white;
+    display: flex;
+  }
+  
+  .detalhes_promo img{
+    cursor:pointer;
+  }
+  
+  .detalhes_promo .promo , .nav_epic .promo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+    opacity: 0.6;
+    display: block;
+  }
+  
+  /*noticias*/
+  
+  .not_container{
+    justify-content: center;
+    display: flex;
+    margin-top: 180px;
+    margin-left: 3%;
+  }
+  
+  .capa_1{
+    float: left;
+    position: relative;
+    margin-right: 40px;
+    background: #2681FF;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .capa_1 img{
+  filter: brightness(50%);
+  }
+  
+  .capa_1 img:hover{
+    filter: brightness(40%);
+    cursor: pointer;
+  }
+  
+  .textDiv1 {
+    position: absolute;
+    margin-top: -150px;
+    left: 0;
+    margin-left: 10px;
+    color: #FFFFFF;
+    width: 400px;
+  }
+  .textDiv1 p{
+    font-weight: 400;
+  }
+  
+  .textDiv1 label{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.281);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+  }

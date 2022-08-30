@@ -1,0 +1,51 @@
+
+.container_meio{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.container_meio h1{
+  padding-left:10%;
+  margin-right: 10%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.container_meio p{
+  margin-right: 5%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.opac{
+  opacity: 0.72;
+}
+
+.opac:hover{
+  opacity: 1;
+}
+
+#ofertas{
+color: #008cff;
+}
+
+/*carrossel*/
+
+.carros{
+  width: 950x;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}

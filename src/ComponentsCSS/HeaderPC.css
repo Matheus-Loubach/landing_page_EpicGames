@@ -1,5 +1,5 @@
 #background  {
-  background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.473)), url(../src/assents/fundo_menu.png);
+  background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.473)), url(../assents/fundo_menu.png);
   width: 100%;
   height: 550px;
   background-size: cover;
@@ -89,12 +89,13 @@
   border-radius: 4px;
   background:  #2681FF;;
 }
-
+#capa_war{
+  margin-left: 100px;  
+}
 #capa_war img{
   width: 449px;
-  height: 110px;
-  margin-left: 100px;  
-  margin-top: 110px;
+height: 110px;
+  margin-top: 50px;
 }
 #capa_war h1{
   font-family: 'Montserrat';
@@ -103,8 +104,40 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color: rgba(255, 255, 255, 0.8);
-width: 523px;
+width: 50%;
 height: 96px;
-margin-left: 100px; 
+}
 
+#capa_war button{
+  background: #2681FF;
+  color: #FFFFFF;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+padding: 10px;
+transition: .5s ease-in-out;
+}
+#capa_war span{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+color: rgba(255, 255, 255, 0.466);
+margin-left: 35px;
+}
+
+#capa_war button:hover{
+  color: #FFFFFF;
+  background-color: #0649a7;
+  cursor: pointer;
+  transform: rotateX(360deg);
+  transition: .5s ease-in-out;
+}
+
+#capa_war span:hover{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
 }

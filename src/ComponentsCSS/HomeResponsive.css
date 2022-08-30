@@ -1,16 +1,24 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .container{
     display: none;
   }
+
+
   #capa_war{
+    text-align: center;
     justify-content: center;
+    display: block;
+    margin-left: 5%;
+    align-items: center;
+    margin-right: 5%;
   }
   #capa_war img{
+    justify-content: center;
     width: 250px;
     padding: 0;
-    margin-top: 100px;
+    margin-top: 20%;
     height: 90px;
-    margin-left: 70px;
+    margin-left: 5%;
   }
 
   #capa_war h1{
@@ -21,10 +29,23 @@
   font-size: 16px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.8);
-  width: 200px;
-  height: 96px;  
+  width: 100%;
+  height: 50px;  
   }
 
+  #capa_war button{
+    transition: .5s ease-in-out;
+    margin-top: 20%;
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    padding: 3px;
+    border-radius: 10px;
+  }
+  #capa_war span{
+    margin-left: 20px;
+    font-size: 15px;
+  }
   .container_meio h1{
     font-size: 15px;
     line-height: 20px;
@@ -43,14 +64,24 @@
     margin-right: 1%;
   }
 
+  /*box noticias*/
   .not_container{
     display: block;
     margin-top: 50px;
-    margin-left: 3px;
+    margin-left: 2%;
   }
-  
+  .capa_1{
+    margin-bottom: 5px;
+  }  
   .not_container img{
     margin-bottom: 2px;
+    width: 110%;
+  }
+
+  .textDiv1 {
+    position: absolute;
+    width: 320px;
+    transition: .5s ease-out;
   }
 
   /*navegue*/
@@ -83,11 +114,16 @@
   }
   #background2 p{
     padding-left: 10px;
+    width: 250px;
+
   }
 
   #background2 button{
     margin-left: 10px;
     }
+
+
+      
     
     /*footer*/
     .logo_footer{
@@ -110,6 +146,7 @@
         }
         
         .dados{
+          transition: 1s ease;
           display: inline-block;
           width: 100%;
         }
@@ -119,7 +156,9 @@
         }
 
         .epicUnrealIcon img{
+          transition: 1s ease;
           margin-top: 20px;
+          margin-left: 4%;
         }
 
    

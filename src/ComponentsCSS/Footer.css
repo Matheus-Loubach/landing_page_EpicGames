@@ -1,0 +1,80 @@
+.footer_container{
+  margin-left: 220px;
+  margin-right: 220px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.footer{
+  margin: 50px 0 32px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_footer{
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.dados{
+  display: flex;
+}
+
+.dados .tit_footer{
+margin-left: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #ffffff;
+margin-bottom: 15px;
+}
+
+.dados ul{
+  list-style-type: none;
+}
+
+.dados li{
+margin-bottom: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.8;
+}
+
+.dados li:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.epicUnrealIcon img{
+  margin-top: 200px;
+}
+
+.footer_container img{
+  margin-right: 10px;
+}
+
+
+.container_final{
+  text-align: center;
+  color: #FFFFFF;
+}
+.container_final h4{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+}
+
+  footer a{
+    text-decoration: none;
+    color: #008cff;
+  }
+
+

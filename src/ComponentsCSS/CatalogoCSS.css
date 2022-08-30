@@ -1,0 +1,100 @@
+.container_nav1{
+  border-right: 1px solid rgba(255, 255, 255, 0.32);
+
+}
+
+.container_nav{
+  margin-left: 32px;
+}
+
+.nav_epic{
+  color: white;
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.imagem_jogos{
+  display: flex;  
+}
+
+.imagem_jogos{
+  margin-right: 10px;
+  margin-bottom: 24px;
+}
+.fundo_texto{
+  width: 250px;
+  padding: 10px;
+}
+
+.fundo_texto:hover{
+  background-color: rgba(255, 255, 255, 0.151);
+  cursor: pointer;
+
+}
+
+.subTitulo{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+}
+
+#background2{
+  background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.473)), url(../assents/fundo_2.png);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*catalogo*/
+#background2{
+  color: #FFFFFF;
+  align-items: center;
+}
+#background2 h3{
+  padding-left: 200px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+#background2 p{
+padding-left: 200px;
+width: 380px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+#background2 button{
+margin-left: 200px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #02010B;
+background: #FFFFFF;
+mix-blend-mode: normal;
+border-radius: 4px;
+padding: 10px;
+cursor: pointer;
+}
+
+#background2 {
+  display: flex;
+}
+
+#background2 img{
+  margin: 50px 0 96px 50px;
+} 
+
+#background2 button:hover{
+ background-color: #2681FF;
+ color: #FFFFFF;
+}
