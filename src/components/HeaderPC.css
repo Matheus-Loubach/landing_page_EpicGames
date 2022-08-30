@@ -1,0 +1,110 @@
+#background  {
+  background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.473)), url(../src/assents/fundo_menu.png);
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container{
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+  padding-left: 80px;
+  top: 30px;
+  padding: 20px;  
+  position: relative;
+}
+.logo{
+  width: 58px;
+  height: 59px;
+  filter: brightness(100%);
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+
+.menu{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.menu ul li{
+  display: inline;
+  position: relative;
+ 
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: background .3s;
+  margin-right: 40px;
+}
+
+.menu ul li a:hover {
+  background-color: #2681FF;
+}
+/*sub menu*/
+.menu ul ul {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+.menu ul li:hover ul {
+  display: block;
+  transition: background .3s;
+}
+
+/*tamanho background do sub*/
+.menu ul ul {
+  width: 6.5em;
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+.menu ul ul li a {
+  display: inline-block;
+ 
+  
+}
+
+.iniciar a{
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 30px;
+  padding: 20px;
+  border: 1px solid #FFFFFF;
+  background: none;
+}
+
+.baixar a{
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 30px;
+  padding: 20px;
+  border-radius: 4px;
+  background:  #2681FF;;
+}
+
+#capa_war img{
+  width: 449px;
+  height: 110px;
+  margin-left: 100px;  
+  margin-top: 110px;
+}
+#capa_war h1{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.8);
+width: 523px;
+height: 96px;
+margin-left: 100px; 
+
+}
